@@ -1,3 +1,6 @@
+.container {
+  margin-bottom: 50px;
+}
 .box {
   height: 200px;
   width: 200px;
@@ -9,4 +12,40 @@
 .inner {
   background-color: red;
   transform: scale(0.5) rotate(45deg);
+}
+.slideBgColor {
+  background-color: #fceae8;
+}
+.carousel-item {
+  padding: 20px 20px;
+}
+.priceClr {
+  color: tomato;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.cat1 {
+  background-image: linear-gradient(to right, #c5e7b1, #f5ec9f);
+}
+.cat2 {
+  background-image: linear-gradient(to right, yellow, #cc3929);
+}
+.cat3 {
+  background-image: linear-gradient(to right, tomato, blue);
+}
+
+.cat1,
+.cat2,
+.cat3 {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 5px;
+  justify-content: space-around;
+}
+.catagory img {
+  height: 100px;
+}
+.catagory h1 {
+  color: white;
 }
